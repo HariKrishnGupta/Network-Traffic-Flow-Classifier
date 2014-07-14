@@ -1,0 +1,2118 @@
+1 arg remaining, starting with 'dump-24-Apr-12.dump'
+Ostermann's tcptrace -- version 6.6.7 -- Thu Nov  4, 2004
+
+392 packets seen, 3 TCP packets traced, 236 UDP packets traced
+elapsed wallclock time: 0:00:00.001221, 321048 pkts/sec analyzed
+trace file elapsed time: 0:00:04.776932
+TCP connection info:
+3 TCP connections traced:
+TCP connection 1:
+	host o:        172.16.83.92:58383
+	host p:        172.16.82.238:2987
+	complete conn: no	(SYNs: 1)  (FINs: 0)
+	first packet:  Tue Apr 24 23:05:00.862257 2012
+	last packet:   Tue Apr 24 23:05:00.862257 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   o->p:			      p->o:
+     total packets:             1           total packets:             0      
+     ack pkts sent:             0           ack pkts sent:             0      
+     pure acks sent:            0           pure acks sent:            0      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:         0           unique bytes sent:         0      
+     actual data pkts:          0           actual data pkts:          0      
+     actual data bytes:         0           actual data bytes:         0      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          0           pushed data pkts:          0      
+     SYN/FIN pkts sent:       1/0           SYN/FIN pkts sent:       0/0      
+     req 1323 ws/ts:          Y/N           req 1323 ws/ts:          N/N      
+     adv wind scale:            8           adv wind scale:            0      
+     req sack:                  Y           req sack:                  N      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1460 bytes     mss requested:             0 bytes
+     max segm size:             0 bytes     max segm size:             0 bytes
+     min segm size:             0 bytes     min segm size:             0 bytes
+     avg segm size:             0 bytes     avg segm size:             0 bytes
+     max win adv:            8192 bytes     max win adv:               0 bytes
+     min win adv:            8192 bytes     min win adv:               0 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:            8192 bytes     avg win adv:               0 bytes
+     initial window:            0 bytes     initial window:            0 bytes
+     initial window:            0 pkts      initial window:            0 pkts 
+     ttl stream length:        NA           ttl stream length:        NA      
+     missed data:              NA           missed data:              NA      
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        0.000 secs 
+     idletime max:         4741.2 ms        idletime max:             NA ms   
+     throughput:               NA           throughput:               NA      
+
+     RTT samples:               0           RTT samples:               0      
+     RTT min:                 0.0 ms        RTT min:                 0.0 ms   
+     RTT max:                 0.0 ms        RTT max:                 0.0 ms   
+     RTT avg:                 0.0 ms        RTT avg:                 0.0 ms   
+     RTT stdev:               0.0 ms        RTT stdev:               0.0 ms   
+
+     RTT from 3WHS:           0.0 ms        RTT from 3WHS:           0.0 ms   
+
+     RTT full_sz smpls:         0           RTT full_sz smpls:         0      
+     RTT full_sz min:         0.0 ms        RTT full_sz min:         0.0 ms   
+     RTT full_sz max:         0.0 ms        RTT full_sz max:         0.0 ms   
+     RTT full_sz avg:         0.0 ms        RTT full_sz avg:         0.0 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            0      
+     segs cum acked:            0           segs cum acked:            0      
+     duplicate acks:            0           duplicate acks:            0      
+     triple dupacks:            0           triple dupacks:            0      
+     max # retrans:             0           max # retrans:             0      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:           0.0 ms   
+     avg retr time:           0.0 ms        avg retr time:           0.0 ms   
+     sdv retr time:           0.0 ms        sdv retr time:           0.0 ms   
+================================
+TCP connection 2:
+	host ey:       172.16.82.141:52072
+	host ez:       172.16.83.3:2987
+	complete conn: no	(SYNs: 1)  (FINs: 0)
+	first packet:  Tue Apr 24 23:05:03.263914 2012
+	last packet:   Tue Apr 24 23:05:03.263914 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   ey->ez:			      ez->ey:
+     total packets:             1           total packets:             0      
+     ack pkts sent:             0           ack pkts sent:             0      
+     pure acks sent:            0           pure acks sent:            0      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:         0           unique bytes sent:         0      
+     actual data pkts:          0           actual data pkts:          0      
+     actual data bytes:         0           actual data bytes:         0      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          0           pushed data pkts:          0      
+     SYN/FIN pkts sent:       1/0           SYN/FIN pkts sent:       0/0      
+     req sack:                  Y           req sack:                  N      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1460 bytes     mss requested:             0 bytes
+     max segm size:             0 bytes     max segm size:             0 bytes
+     min segm size:             0 bytes     min segm size:             0 bytes
+     avg segm size:             0 bytes     avg segm size:             0 bytes
+     max win adv:            8192 bytes     max win adv:               0 bytes
+     min win adv:            8192 bytes     min win adv:               0 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:            8192 bytes     avg win adv:               0 bytes
+     initial window:            0 bytes     initial window:            0 bytes
+     initial window:            0 pkts      initial window:            0 pkts 
+     ttl stream length:        NA           ttl stream length:        NA      
+     missed data:              NA           missed data:              NA      
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        0.000 secs 
+     idletime max:         2339.6 ms        idletime max:             NA ms   
+     throughput:               NA           throughput:               NA      
+
+     RTT samples:               0           RTT samples:               0      
+     RTT min:                 0.0 ms        RTT min:                 0.0 ms   
+     RTT max:                 0.0 ms        RTT max:                 0.0 ms   
+     RTT avg:                 0.0 ms        RTT avg:                 0.0 ms   
+     RTT stdev:               0.0 ms        RTT stdev:               0.0 ms   
+
+     RTT from 3WHS:           0.0 ms        RTT from 3WHS:           0.0 ms   
+
+     RTT full_sz smpls:         0           RTT full_sz smpls:         0      
+     RTT full_sz min:         0.0 ms        RTT full_sz min:         0.0 ms   
+     RTT full_sz max:         0.0 ms        RTT full_sz max:         0.0 ms   
+     RTT full_sz avg:         0.0 ms        RTT full_sz avg:         0.0 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            0      
+     segs cum acked:            0           segs cum acked:            0      
+     duplicate acks:            0           duplicate acks:            0      
+     triple dupacks:            0           triple dupacks:            0      
+     max # retrans:             0           max # retrans:             0      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:           0.0 ms   
+     avg retr time:           0.0 ms        avg retr time:           0.0 ms   
+     sdv retr time:           0.0 ms        sdv retr time:           0.0 ms   
+================================
+TCP connection 3:
+	host gs:       172.16.82.141:52077
+	host gt:       172.16.83.18:2987
+	complete conn: no	(SYNs: 1)  (FINs: 0)
+	first packet:  Tue Apr 24 23:05:04.094210 2012
+	last packet:   Tue Apr 24 23:05:04.094210 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   gs->gt:			      gt->gs:
+     total packets:             1           total packets:             0      
+     ack pkts sent:             0           ack pkts sent:             0      
+     pure acks sent:            0           pure acks sent:            0      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:         0           unique bytes sent:         0      
+     actual data pkts:          0           actual data pkts:          0      
+     actual data bytes:         0           actual data bytes:         0      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          0           pushed data pkts:          0      
+     SYN/FIN pkts sent:       1/0           SYN/FIN pkts sent:       0/0      
+     req sack:                  Y           req sack:                  N      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:          1460 bytes     mss requested:             0 bytes
+     max segm size:             0 bytes     max segm size:             0 bytes
+     min segm size:             0 bytes     min segm size:             0 bytes
+     avg segm size:             0 bytes     avg segm size:             0 bytes
+     max win adv:            8192 bytes     max win adv:               0 bytes
+     min win adv:            8192 bytes     min win adv:               0 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:            8192 bytes     avg win adv:               0 bytes
+     initial window:            0 bytes     initial window:            0 bytes
+     initial window:            0 pkts      initial window:            0 pkts 
+     ttl stream length:        NA           ttl stream length:        NA      
+     missed data:              NA           missed data:              NA      
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        0.000 secs 
+     idletime max:         1509.3 ms        idletime max:             NA ms   
+     throughput:               NA           throughput:               NA      
+
+     RTT samples:               0           RTT samples:               0      
+     RTT min:                 0.0 ms        RTT min:                 0.0 ms   
+     RTT max:                 0.0 ms        RTT max:                 0.0 ms   
+     RTT avg:                 0.0 ms        RTT avg:                 0.0 ms   
+     RTT stdev:               0.0 ms        RTT stdev:               0.0 ms   
+
+     RTT from 3WHS:           0.0 ms        RTT from 3WHS:           0.0 ms   
+
+     RTT full_sz smpls:         0           RTT full_sz smpls:         0      
+     RTT full_sz min:         0.0 ms        RTT full_sz min:         0.0 ms   
+     RTT full_sz max:         0.0 ms        RTT full_sz max:         0.0 ms   
+     RTT full_sz avg:         0.0 ms        RTT full_sz avg:         0.0 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            0      
+     segs cum acked:            0           segs cum acked:            0      
+     duplicate acks:            0           duplicate acks:            0      
+     triple dupacks:            0           triple dupacks:            0      
+     max # retrans:             0           max # retrans:             0      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:           0.0 ms   
+     avg retr time:           0.0 ms        avg retr time:           0.0 ms   
+     sdv retr time:           0.0 ms        sdv retr time:           0.0 ms   
+
+============================================================
+UDP connection info:
+135 UDP connections traced:
+UDP connection 1:
+	host a:        172.16.82.116:55189
+	host b:        255.255.255.255:10007
+
+	first packet:  Tue Apr 24 23:05:00.826560 2012
+	last packet:   Tue Apr 24 23:05:00.826560 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   a->b:			      b->a:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 2:
+	host c:        fe80::1018:350b:18fd:00d4:58462
+	host d:        ff02::0001:0003:5355
+
+	first packet:  Tue Apr 24 23:05:00.832052 2012
+	last packet:   Tue Apr 24 23:05:00.927986 2012
+	elapsed time:  0:00:00.095934
+	total packets: 2
+	filename:      dump-24-Apr-12.dump
+   c->d:			      d->c:
+     total packets:             2           total packets:             0      
+     data bytes sent:          64           data bytes sent:           0      
+     throughput:              667 Bps       throughput:                0 Bps  
+================================
+UDP connection 3:
+	host e:        169.254.0.212:65153
+	host f:        224.0.0.252:5355
+
+	first packet:  Tue Apr 24 23:05:00.832334 2012
+	last packet:   Tue Apr 24 23:05:00.928107 2012
+	elapsed time:  0:00:00.095773
+	total packets: 2
+	filename:      dump-24-Apr-12.dump
+   e->f:			      f->e:
+     total packets:             2           total packets:             0      
+     data bytes sent:          64           data bytes sent:           0      
+     throughput:              668 Bps       throughput:                0 Bps  
+================================
+UDP connection 4:
+	host g:        172.16.82.116:55190
+	host h:        255.255.255.255:10019
+
+	first packet:  Tue Apr 24 23:05:00.833271 2012
+	last packet:   Tue Apr 24 23:05:00.833271 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   g->h:			      h->g:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 5:
+	host i:        172.16.82.164:137
+	host j:        172.16.83.255:137
+
+	first packet:  Tue Apr 24 23:05:00.836775 2012
+	last packet:   Tue Apr 24 23:05:05.587500 2012
+	elapsed time:  0:00:04.750724
+	total packets: 9
+	filename:      dump-24-Apr-12.dump
+   i->j:			      j->i:
+     total packets:             9           total packets:             0      
+     data bytes sent:         522           data bytes sent:           0      
+     throughput:              110 Bps       throughput:                0 Bps  
+================================
+UDP connection 6:
+	host k:        172.16.82.210:58452
+	host l:        239.255.255.250:1900
+
+	first packet:  Tue Apr 24 23:05:00.839770 2012
+	last packet:   Tue Apr 24 23:05:03.840220 2012
+	elapsed time:  0:00:03.000450
+	total packets: 2
+	filename:      dump-24-Apr-12.dump
+   k->l:			      l->k:
+     total packets:             2           total packets:             0      
+     data bytes sent:         282           data bytes sent:           0      
+     throughput:               94 Bps       throughput:                0 Bps  
+================================
+UDP connection 7:
+	host m:        169.254.0.212:51893
+	host n:        239.255.255.250:1900
+
+	first packet:  Tue Apr 24 23:05:00.850479 2012
+	last packet:   Tue Apr 24 23:05:03.848833 2012
+	elapsed time:  0:00:02.998354
+	total packets: 2
+	filename:      dump-24-Apr-12.dump
+   m->n:			      n->m:
+     total packets:             2           total packets:             0      
+     data bytes sent:         282           data bytes sent:           0      
+     throughput:               94 Bps       throughput:                0 Bps  
+================================
+UDP connection 8:
+	host q:        172.16.82.236:137
+	host r:        172.16.83.255:137
+
+	first packet:  Tue Apr 24 23:05:00.866442 2012
+	last packet:   Tue Apr 24 23:05:05.368641 2012
+	elapsed time:  0:00:04.502199
+	total packets: 12
+	filename:      dump-24-Apr-12.dump
+   q->r:			      r->q:
+     total packets:            12           total packets:             0      
+     data bytes sent:         696           data bytes sent:           0      
+     throughput:              155 Bps       throughput:                0 Bps  
+================================
+UDP connection 9:
+	host s:        172.16.82.190:137
+	host t:        172.16.83.255:137
+
+	first packet:  Tue Apr 24 23:05:00.884680 2012
+	last packet:   Tue Apr 24 23:05:00.884680 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   s->t:			      t->s:
+     total packets:             1           total packets:             0      
+     data bytes sent:          76           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 10:
+	host u:        169.254.0.212:1900
+	host v:        239.255.255.250:1900
+
+	first packet:  Tue Apr 24 23:05:00.886731 2012
+	last packet:   Tue Apr 24 23:05:03.970113 2012
+	elapsed time:  0:00:03.083381
+	total packets: 20
+	filename:      dump-24-Apr-12.dump
+   u->v:			      v->u:
+     total packets:            20           total packets:             0      
+     data bytes sent:        9533           data bytes sent:           0      
+     throughput:             3092 Bps       throughput:                0 Bps  
+================================
+UDP connection 11:
+	host w:        fe80::1018:350b:18fd:00d4:1900
+	host x:        ff02::000c:1900
+
+	first packet:  Tue Apr 24 23:05:00.886899 2012
+	last packet:   Tue Apr 24 23:05:03.970361 2012
+	elapsed time:  0:00:03.083461
+	total packets: 20
+	filename:      dump-24-Apr-12.dump
+   w->x:			      x->w:
+     total packets:            20           total packets:             0      
+     data bytes sent:        9653           data bytes sent:           0      
+     throughput:             3131 Bps       throughput:                0 Bps  
+================================
+UDP connection 12:
+	host y:        172.16.82.181:57395
+	host z:        239.255.255.250:1900
+
+	first packet:  Tue Apr 24 23:05:00.894758 2012
+	last packet:   Tue Apr 24 23:05:00.894758 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   y->z:			      z->y:
+     total packets:             1           total packets:             0      
+     data bytes sent:         141           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 13:
+	host aa:       172.16.83.7:1900
+	host ab:       239.255.255.250:1900
+
+	first packet:  Tue Apr 24 23:05:00.913903 2012
+	last packet:   Tue Apr 24 23:05:02.944870 2012
+	elapsed time:  0:00:02.030966
+	total packets: 2
+	filename:      dump-24-Apr-12.dump
+   aa->ab:			      ab->aa:
+     total packets:             2           total packets:             0      
+     data bytes sent:         940           data bytes sent:           0      
+     throughput:              463 Bps       throughput:                0 Bps  
+================================
+UDP connection 14:
+	host ac:       fe80::e59c:f009:554a:495e:1900
+	host ad:       ff02::000c:1900
+
+	first packet:  Tue Apr 24 23:05:00.915804 2012
+	last packet:   Tue Apr 24 23:05:02.946662 2012
+	elapsed time:  0:00:02.030858
+	total packets: 2
+	filename:      dump-24-Apr-12.dump
+   ac->ad:			      ad->ac:
+     total packets:             2           total packets:             0      
+     data bytes sent:         960           data bytes sent:           0      
+     throughput:              473 Bps       throughput:                0 Bps  
+================================
+UDP connection 15:
+	host ae:       172.16.82.103:64513
+	host af:       255.255.255.255:10019
+
+	first packet:  Tue Apr 24 23:05:00.943368 2012
+	last packet:   Tue Apr 24 23:05:00.943368 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   ae->af:			      af->ae:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 16:
+	host ag:       172.16.82.103:64514
+	host ah:       255.255.255.255:10007
+
+	first packet:  Tue Apr 24 23:05:00.953404 2012
+	last packet:   Tue Apr 24 23:05:00.953404 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   ag->ah:			      ah->ag:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 17:
+	host ai:       172.16.83.93:68
+	host aj:       255.255.255.255:67
+
+	first packet:  Tue Apr 24 23:05:01.018382 2012
+	last packet:   Tue Apr 24 23:05:01.018382 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   ai->aj:			      aj->ai:
+     total packets:             1           total packets:             0      
+     data bytes sent:         308           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 18:
+	host ak:       172.16.83.93:137
+	host al:       172.16.83.255:137
+
+	first packet:  Tue Apr 24 23:05:01.027327 2012
+	last packet:   Tue Apr 24 23:05:05.127532 2012
+	elapsed time:  0:00:04.100204
+	total packets: 6
+	filename:      dump-24-Apr-12.dump
+   ak->al:			      al->ak:
+     total packets:             6           total packets:             0      
+     data bytes sent:         348           data bytes sent:           0      
+     throughput:               85 Bps       throughput:                0 Bps  
+================================
+UDP connection 19:
+	host am:       172.16.82.214:1900
+	host an:       239.255.255.250:1900
+
+	first packet:  Tue Apr 24 23:05:01.093986 2012
+	last packet:   Tue Apr 24 23:05:01.093986 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   am->an:			      an->am:
+     total packets:             1           total packets:             0      
+     data bytes sent:         318           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 20:
+	host ao:       169.254.0.212:137
+	host ap:       169.254.255.255:137
+
+	first packet:  Tue Apr 24 23:05:01.128393 2012
+	last packet:   Tue Apr 24 23:05:02.628117 2012
+	elapsed time:  0:00:01.499724
+	total packets: 3
+	filename:      dump-24-Apr-12.dump
+   ao->ap:			      ap->ao:
+     total packets:             3           total packets:             0      
+     data bytes sent:         174           data bytes sent:           0      
+     throughput:              116 Bps       throughput:                0 Bps  
+================================
+UDP connection 21:
+	host aq:       172.16.82.92:50791
+	host ar:       255.255.255.255:10007
+
+	first packet:  Tue Apr 24 23:05:01.138171 2012
+	last packet:   Tue Apr 24 23:05:01.138171 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   aq->ar:			      ar->aq:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 22:
+	host as:       172.16.82.10:17500
+	host at:       172.16.83.255:17500
+
+	first packet:  Tue Apr 24 23:05:01.201254 2012
+	last packet:   Tue Apr 24 23:05:01.201254 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   as->at:			      at->as:
+     total packets:             1           total packets:             0      
+     data bytes sent:         129           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 23:
+	host au:       172.16.82.248:63898
+	host av:       239.255.255.250:1900
+
+	first packet:  Tue Apr 24 23:05:01.326236 2012
+	last packet:   Tue Apr 24 23:05:04.325993 2012
+	elapsed time:  0:00:02.999757
+	total packets: 2
+	filename:      dump-24-Apr-12.dump
+   au->av:			      av->au:
+     total packets:             2           total packets:             0      
+     data bytes sent:         282           data bytes sent:           0      
+     throughput:               94 Bps       throughput:                0 Bps  
+================================
+UDP connection 24:
+	host aw:       172.16.82.110:53592
+	host ax:       255.255.255.255:10007
+
+	first packet:  Tue Apr 24 23:05:01.436177 2012
+	last packet:   Tue Apr 24 23:05:01.436177 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   aw->ax:			      ax->aw:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 25:
+	host ay:       172.16.82.251:65306
+	host az:       255.255.255.255:10007
+
+	first packet:  Tue Apr 24 23:05:01.444526 2012
+	last packet:   Tue Apr 24 23:05:01.444526 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   ay->az:			      az->ay:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 26:
+	host ba:       172.16.82.210:137
+	host bb:       172.16.83.255:137
+
+	first packet:  Tue Apr 24 23:05:01.540893 2012
+	last packet:   Tue Apr 24 23:05:05.320187 2012
+	elapsed time:  0:00:03.779293
+	total packets: 6
+	filename:      dump-24-Apr-12.dump
+   ba->bb:			      bb->ba:
+     total packets:             6           total packets:             0      
+     data bytes sent:         348           data bytes sent:           0      
+     throughput:               92 Bps       throughput:                0 Bps  
+================================
+UDP connection 27:
+	host bc:       172.16.82.165:17500
+	host bd:       255.255.255.255:17500
+
+	first packet:  Tue Apr 24 23:05:01.566173 2012
+	last packet:   Tue Apr 24 23:05:01.566173 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   bc->bd:			      bd->bc:
+     total packets:             1           total packets:             0      
+     data bytes sent:         260           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 28:
+	host be:       172.16.82.165:17500
+	host bf:       172.16.83.255:17500
+
+	first packet:  Tue Apr 24 23:05:01.569702 2012
+	last packet:   Tue Apr 24 23:05:01.569702 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   be->bf:			      bf->be:
+     total packets:             1           total packets:             0      
+     data bytes sent:         260           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 29:
+	host bg:       172.16.82.92:50792
+	host bh:       255.255.255.255:10019
+
+	first packet:  Tue Apr 24 23:05:01.573951 2012
+	last packet:   Tue Apr 24 23:05:01.573951 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   bg->bh:			      bh->bg:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 30:
+	host bi:       172.16.82.251:65307
+	host bj:       255.255.255.255:10019
+
+	first packet:  Tue Apr 24 23:05:01.643752 2012
+	last packet:   Tue Apr 24 23:05:01.643752 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   bi->bj:			      bj->bi:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 31:
+	host bk:       172.16.82.110:53593
+	host bl:       255.255.255.255:10019
+
+	first packet:  Tue Apr 24 23:05:01.716824 2012
+	last packet:   Tue Apr 24 23:05:01.716824 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   bk->bl:			      bl->bk:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 32:
+	host bm:       fe80::7566:7096:6143:47ef:546
+	host bn:       ff02::0001:0002:547
+
+	first packet:  Tue Apr 24 23:05:01.801461 2012
+	last packet:   Tue Apr 24 23:05:01.801461 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   bm->bn:			      bn->bm:
+     total packets:             1           total packets:             0      
+     data bytes sent:          97           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 33:
+	host bo:       192.168.1.115:1900
+	host bp:       172.16.82.181:57395
+
+	first packet:  Tue Apr 24 23:05:01.815421 2012
+	last packet:   Tue Apr 24 23:05:01.815421 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   bo->bp:			      bp->bo:
+     total packets:             1           total packets:             0      
+     data bytes sent:         477           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 34:
+	host bq:       172.16.82.116:55191
+	host br:       255.255.255.255:10007
+
+	first packet:  Tue Apr 24 23:05:01.841870 2012
+	last packet:   Tue Apr 24 23:05:01.841870 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   bq->br:			      br->bq:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 35:
+	host bs:       192.168.1.115:1900
+	host bt:       172.16.82.116:65452
+
+	first packet:  Tue Apr 24 23:05:01.847448 2012
+	last packet:   Tue Apr 24 23:05:01.847448 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   bs->bt:			      bt->bs:
+     total packets:             1           total packets:             0      
+     data bytes sent:         477           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 36:
+	host bu:       172.16.82.116:55192
+	host bv:       255.255.255.255:10019
+
+	first packet:  Tue Apr 24 23:05:01.864136 2012
+	last packet:   Tue Apr 24 23:05:01.864136 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   bu->bv:			      bv->bu:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 37:
+	host bw:       172.16.82.180:59141
+	host bx:       239.255.255.250:1900
+
+	first packet:  Tue Apr 24 23:05:01.885708 2012
+	last packet:   Tue Apr 24 23:05:04.885370 2012
+	elapsed time:  0:00:02.999662
+	total packets: 2
+	filename:      dump-24-Apr-12.dump
+   bw->bx:			      bx->bw:
+     total packets:             2           total packets:             0      
+     data bytes sent:         282           data bytes sent:           0      
+     throughput:               94 Bps       throughput:                0 Bps  
+================================
+UDP connection 38:
+	host by:       172.16.82.103:64515
+	host bz:       255.255.255.255:10019
+
+	first packet:  Tue Apr 24 23:05:01.946565 2012
+	last packet:   Tue Apr 24 23:05:01.946565 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   by->bz:			      bz->by:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 39:
+	host ca:       172.16.82.103:64516
+	host cb:       255.255.255.255:10007
+
+	first packet:  Tue Apr 24 23:05:01.953254 2012
+	last packet:   Tue Apr 24 23:05:01.953254 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   ca->cb:			      cb->ca:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 40:
+	host cc:       172.16.82.69:50528
+	host cd:       239.255.255.250:1900
+
+	first packet:  Tue Apr 24 23:05:01.966021 2012
+	last packet:   Tue Apr 24 23:05:05.034545 2012
+	elapsed time:  0:00:03.068524
+	total packets: 2
+	filename:      dump-24-Apr-12.dump
+   cc->cd:			      cd->cc:
+     total packets:             2           total packets:             0      
+     data bytes sent:         282           data bytes sent:           0      
+     throughput:               92 Bps       throughput:                0 Bps  
+================================
+UDP connection 41:
+	host ce:       192.168.1.1:67
+	host cf:       255.255.255.255:68
+
+	first packet:  Tue Apr 24 23:05:02.017736 2012
+	last packet:   Tue Apr 24 23:05:02.017736 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   ce->cf:			      cf->ce:
+     total packets:             1           total packets:             0      
+     data bytes sent:         311           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 42:
+	host cg:       172.16.83.65:52611
+	host ch:       239.255.255.250:1900
+
+	first packet:  Tue Apr 24 23:05:02.090380 2012
+	last packet:   Tue Apr 24 23:05:05.090626 2012
+	elapsed time:  0:00:03.000245
+	total packets: 2
+	filename:      dump-24-Apr-12.dump
+   cg->ch:			      ch->cg:
+     total packets:             2           total packets:             0      
+     data bytes sent:         282           data bytes sent:           0      
+     throughput:               94 Bps       throughput:                0 Bps  
+================================
+UDP connection 43:
+	host ci:       172.16.82.92:50793
+	host cj:       255.255.255.255:10007
+
+	first packet:  Tue Apr 24 23:05:02.153668 2012
+	last packet:   Tue Apr 24 23:05:02.153668 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   ci->cj:			      cj->ci:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 44:
+	host ck:       172.16.83.92:137
+	host cl:       172.16.83.255:137
+
+	first packet:  Tue Apr 24 23:05:02.238614 2012
+	last packet:   Tue Apr 24 23:05:03.760398 2012
+	elapsed time:  0:00:01.521783
+	total packets: 3
+	filename:      dump-24-Apr-12.dump
+   ck->cl:			      cl->ck:
+     total packets:             3           total packets:             0      
+     data bytes sent:         174           data bytes sent:           0      
+     throughput:              114 Bps       throughput:                0 Bps  
+================================
+UDP connection 45:
+	host cm:       172.16.82.100:60693
+	host cn:       239.255.255.250:1900
+
+	first packet:  Tue Apr 24 23:05:02.241267 2012
+	last packet:   Tue Apr 24 23:05:05.242406 2012
+	elapsed time:  0:00:03.001139
+	total packets: 2
+	filename:      dump-24-Apr-12.dump
+   cm->cn:			      cn->cm:
+     total packets:             2           total packets:             0      
+     data bytes sent:         282           data bytes sent:           0      
+     throughput:               94 Bps       throughput:                0 Bps  
+================================
+UDP connection 46:
+	host co:       fe80::8d0d:08b6:3623:e26e:53270
+	host cp:       ff02::0001:0003:5355
+
+	first packet:  Tue Apr 24 23:05:02.339094 2012
+	last packet:   Tue Apr 24 23:05:02.339094 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   co->cp:			      cp->co:
+     total packets:             1           total packets:             0      
+     data bytes sent:          30           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 47:
+	host cq:       172.16.82.164:59800
+	host cr:       224.0.0.252:5355
+
+	first packet:  Tue Apr 24 23:05:02.339153 2012
+	last packet:   Tue Apr 24 23:05:02.339153 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   cq->cr:			      cr->cq:
+     total packets:             1           total packets:             0      
+     data bytes sent:          30           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 48:
+	host cs:       172.16.82.164:63749
+	host ct:       224.0.0.252:5355
+
+	first packet:  Tue Apr 24 23:05:02.340355 2012
+	last packet:   Tue Apr 24 23:05:02.340355 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   cs->ct:			      ct->cs:
+     total packets:             1           total packets:             0      
+     data bytes sent:          30           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 49:
+	host cu:       fe80::8d0d:08b6:3623:e26e:49884
+	host cv:       ff02::0001:0003:5355
+
+	first packet:  Tue Apr 24 23:05:02.342326 2012
+	last packet:   Tue Apr 24 23:05:02.342326 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   cu->cv:			      cv->cu:
+     total packets:             1           total packets:             0      
+     data bytes sent:          30           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 50:
+	host cw:       172.16.82.164:54943
+	host cx:       224.0.0.252:5355
+
+	first packet:  Tue Apr 24 23:05:02.342389 2012
+	last packet:   Tue Apr 24 23:05:02.342389 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   cw->cx:			      cx->cw:
+     total packets:             1           total packets:             0      
+     data bytes sent:          30           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 51:
+	host cy:       fe80::8d0d:08b6:3623:e26e:53970
+	host cz:       ff02::0001:0003:5355
+
+	first packet:  Tue Apr 24 23:05:02.343429 2012
+	last packet:   Tue Apr 24 23:05:02.343429 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   cy->cz:			      cz->cy:
+     total packets:             1           total packets:             0      
+     data bytes sent:          30           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 52:
+	host da:       172.16.82.73:62182
+	host db:       239.255.255.250:1900
+
+	first packet:  Tue Apr 24 23:05:02.432610 2012
+	last packet:   Tue Apr 24 23:05:05.432600 2012
+	elapsed time:  0:00:02.999990
+	total packets: 2
+	filename:      dump-24-Apr-12.dump
+   da->db:			      db->da:
+     total packets:             2           total packets:             0      
+     data bytes sent:         282           data bytes sent:           0      
+     throughput:               94 Bps       throughput:                0 Bps  
+================================
+UDP connection 53:
+	host dc:       fe80::8d0d:08b6:3623:e26e:54889
+	host dd:       ff02::0001:0003:5355
+
+	first packet:  Tue Apr 24 23:05:02.438645 2012
+	last packet:   Tue Apr 24 23:05:02.438645 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   dc->dd:			      dd->dc:
+     total packets:             1           total packets:             0      
+     data bytes sent:          30           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 54:
+	host de:       172.16.82.164:64605
+	host df:       224.0.0.252:5355
+
+	first packet:  Tue Apr 24 23:05:02.438714 2012
+	last packet:   Tue Apr 24 23:05:02.438714 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   de->df:			      df->de:
+     total packets:             1           total packets:             0      
+     data bytes sent:          30           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 55:
+	host dg:       fe80::8d0d:08b6:3623:e26e:65508
+	host dh:       ff02::0001:0003:5355
+
+	first packet:  Tue Apr 24 23:05:02.439408 2012
+	last packet:   Tue Apr 24 23:05:02.439408 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   dg->dh:			      dh->dg:
+     total packets:             1           total packets:             0      
+     data bytes sent:          30           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 56:
+	host di:       fe80::8d0d:08b6:3623:e26e:57286
+	host dj:       ff02::0001:0003:5355
+
+	first packet:  Tue Apr 24 23:05:02.441092 2012
+	last packet:   Tue Apr 24 23:05:02.441092 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   di->dj:			      dj->di:
+     total packets:             1           total packets:             0      
+     data bytes sent:          30           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 57:
+	host dk:       172.16.82.164:57736
+	host dl:       224.0.0.252:5355
+
+	first packet:  Tue Apr 24 23:05:02.441153 2012
+	last packet:   Tue Apr 24 23:05:02.441153 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   dk->dl:			      dl->dk:
+     total packets:             1           total packets:             0      
+     data bytes sent:          30           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 58:
+	host dm:       fe80::8d0d:08b6:3623:e26e:60688
+	host dn:       ff02::0001:0003:5355
+
+	first packet:  Tue Apr 24 23:05:02.441848 2012
+	last packet:   Tue Apr 24 23:05:02.441848 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   dm->dn:			      dn->dm:
+     total packets:             1           total packets:             0      
+     data bytes sent:          30           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 59:
+	host do:       172.16.82.110:53594
+	host dp:       255.255.255.255:10007
+
+	first packet:  Tue Apr 24 23:05:02.450462 2012
+	last packet:   Tue Apr 24 23:05:02.450462 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   do->dp:			      dp->do:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 60:
+	host dq:       172.16.82.251:65308
+	host dr:       255.255.255.255:10007
+
+	first packet:  Tue Apr 24 23:05:02.454443 2012
+	last packet:   Tue Apr 24 23:05:02.454443 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   dq->dr:			      dr->dq:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 61:
+	host ds:       172.16.82.92:50794
+	host dt:       255.255.255.255:10019
+
+	first packet:  Tue Apr 24 23:05:02.584518 2012
+	last packet:   Tue Apr 24 23:05:02.584518 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   ds->dt:			      dt->ds:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 62:
+	host du:       fe80::6832:2d23:c106:70e8:546
+	host dv:       ff02::0001:0002:547
+
+	first packet:  Tue Apr 24 23:05:02.634833 2012
+	last packet:   Tue Apr 24 23:05:02.634833 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   du->dv:			      dv->du:
+     total packets:             1           total packets:             0      
+     data bytes sent:          97           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 63:
+	host dw:       172.16.82.251:65309
+	host dx:       255.255.255.255:10019
+
+	first packet:  Tue Apr 24 23:05:02.655307 2012
+	last packet:   Tue Apr 24 23:05:02.655307 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   dw->dx:			      dx->dw:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 64:
+	host dy:       fe80::7d09:418e:7c16:67ae:546
+	host dz:       ff02::0001:0002:547
+
+	first packet:  Tue Apr 24 23:05:02.704113 2012
+	last packet:   Tue Apr 24 23:05:02.704113 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   dy->dz:			      dz->dy:
+     total packets:             1           total packets:             0      
+     data bytes sent:         102           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 65:
+	host ea:       172.16.82.236:65218
+	host eb:       239.255.255.250:1900
+
+	first packet:  Tue Apr 24 23:05:02.713102 2012
+	last packet:   Tue Apr 24 23:05:02.713102 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   ea->eb:			      eb->ea:
+     total packets:             1           total packets:             0      
+     data bytes sent:         141           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 66:
+	host ec:       172.16.82.110:53595
+	host ed:       255.255.255.255:10019
+
+	first packet:  Tue Apr 24 23:05:02.731092 2012
+	last packet:   Tue Apr 24 23:05:02.731092 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   ec->ed:			      ed->ec:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 67:
+	host ee:       fe80::618f:2710:ce92:4aba:546
+	host ef:       ff02::0001:0002:547
+
+	first packet:  Tue Apr 24 23:05:02.827629 2012
+	last packet:   Tue Apr 24 23:05:02.827629 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   ee->ef:			      ef->ee:
+     total packets:             1           total packets:             0      
+     data bytes sent:          98           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 68:
+	host eg:       172.16.82.116:64994
+	host eh:       255.255.255.255:10007
+
+	first packet:  Tue Apr 24 23:05:02.857050 2012
+	last packet:   Tue Apr 24 23:05:02.857050 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   eg->eh:			      eh->eg:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 69:
+	host ei:       172.16.82.116:64995
+	host ej:       255.255.255.255:10019
+
+	first packet:  Tue Apr 24 23:05:02.875491 2012
+	last packet:   Tue Apr 24 23:05:02.875491 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   ei->ej:			      ej->ei:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 70:
+	host ek:       172.16.82.103:64517
+	host el:       255.255.255.255:10019
+
+	first packet:  Tue Apr 24 23:05:02.945166 2012
+	last packet:   Tue Apr 24 23:05:02.945166 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   ek->el:			      el->ek:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 71:
+	host em:       172.16.82.103:64518
+	host en:       255.255.255.255:10007
+
+	first packet:  Tue Apr 24 23:05:02.959619 2012
+	last packet:   Tue Apr 24 23:05:02.959619 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   em->en:			      en->em:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 72:
+	host eo:       172.16.83.94:17500
+	host ep:       255.255.255.255:17500
+
+	first packet:  Tue Apr 24 23:05:03.031166 2012
+	last packet:   Tue Apr 24 23:05:03.031166 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   eo->ep:			      ep->eo:
+     total packets:             1           total packets:             0      
+     data bytes sent:         140           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 73:
+	host eq:       172.16.83.94:17500
+	host er:       172.16.83.255:17500
+
+	first packet:  Tue Apr 24 23:05:03.031628 2012
+	last packet:   Tue Apr 24 23:05:03.031628 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   eq->er:			      er->eq:
+     total packets:             1           total packets:             0      
+     data bytes sent:         140           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 74:
+	host es:       172.16.82.138:17500
+	host et:       255.255.255.255:17500
+
+	first packet:  Tue Apr 24 23:05:03.082418 2012
+	last packet:   Tue Apr 24 23:05:03.082418 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   es->et:			      et->es:
+     total packets:             1           total packets:             0      
+     data bytes sent:         169           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 75:
+	host eu:       172.16.82.138:17500
+	host ev:       172.16.83.255:17500
+
+	first packet:  Tue Apr 24 23:05:03.084691 2012
+	last packet:   Tue Apr 24 23:05:03.084691 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   eu->ev:			      ev->eu:
+     total packets:             1           total packets:             0      
+     data bytes sent:         169           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 76:
+	host ew:       172.16.82.92:50795
+	host ex:       255.255.255.255:10007
+
+	first packet:  Tue Apr 24 23:05:03.164974 2012
+	last packet:   Tue Apr 24 23:05:03.164974 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   ew->ex:			      ex->ew:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 77:
+	host fa:       172.16.82.123:54381
+	host fb:       239.255.255.250:1900
+
+	first packet:  Tue Apr 24 23:05:03.284786 2012
+	last packet:   Tue Apr 24 23:05:03.284786 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   fa->fb:			      fb->fa:
+     total packets:             1           total packets:             0      
+     data bytes sent:         141           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 78:
+	host fc:       fe80::04af:aeb2:170a:5284:64098
+	host fd:       ff02::0001:0003:5355
+
+	first packet:  Tue Apr 24 23:05:03.370085 2012
+	last packet:   Tue Apr 24 23:05:03.469970 2012
+	elapsed time:  0:00:00.099885
+	total packets: 2
+	filename:      dump-24-Apr-12.dump
+   fc->fd:			      fd->fc:
+     total packets:             2           total packets:             0      
+     data bytes sent:          60           data bytes sent:           0      
+     throughput:              601 Bps       throughput:                0 Bps  
+================================
+UDP connection 79:
+	host fe:       172.16.82.202:59968
+	host ff:       224.0.0.252:5355
+
+	first packet:  Tue Apr 24 23:05:03.370339 2012
+	last packet:   Tue Apr 24 23:05:03.470006 2012
+	elapsed time:  0:00:00.099667
+	total packets: 2
+	filename:      dump-24-Apr-12.dump
+   fe->ff:			      ff->fe:
+     total packets:             2           total packets:             0      
+     data bytes sent:          60           data bytes sent:           0      
+     throughput:              602 Bps       throughput:                0 Bps  
+================================
+UDP connection 80:
+	host fg:       172.16.82.10:65391
+	host fh:       239.255.255.250:1900
+
+	first packet:  Tue Apr 24 23:05:03.395016 2012
+	last packet:   Tue Apr 24 23:05:03.395016 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   fg->fh:			      fh->fg:
+     total packets:             1           total packets:             0      
+     data bytes sent:         141           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 81:
+	host fi:       172.16.82.110:53596
+	host fj:       255.255.255.255:10007
+
+	first packet:  Tue Apr 24 23:05:03.464372 2012
+	last packet:   Tue Apr 24 23:05:03.464372 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   fi->fj:			      fj->fi:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 82:
+	host fk:       172.16.82.251:65310
+	host fl:       255.255.255.255:10007
+
+	first packet:  Tue Apr 24 23:05:03.472907 2012
+	last packet:   Tue Apr 24 23:05:03.472907 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   fk->fl:			      fl->fk:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 83:
+	host fm:       fe80::615d:5aef:d548:71d6:63124
+	host fn:       ff02::0001:0003:5355
+
+	first packet:  Tue Apr 24 23:05:03.572030 2012
+	last packet:   Tue Apr 24 23:05:03.672095 2012
+	elapsed time:  0:00:00.100065
+	total packets: 2
+	filename:      dump-24-Apr-12.dump
+   fm->fn:			      fn->fm:
+     total packets:             2           total packets:             0      
+     data bytes sent:         102           data bytes sent:           0      
+     throughput:             1019 Bps       throughput:                0 Bps  
+================================
+UDP connection 84:
+	host fo:       172.16.82.177:57607
+	host fp:       224.0.0.252:5355
+
+	first packet:  Tue Apr 24 23:05:03.572664 2012
+	last packet:   Tue Apr 24 23:05:03.672238 2012
+	elapsed time:  0:00:00.099574
+	total packets: 2
+	filename:      dump-24-Apr-12.dump
+   fo->fp:			      fp->fo:
+     total packets:             2           total packets:             0      
+     data bytes sent:         102           data bytes sent:           0      
+     throughput:             1024 Bps       throughput:                0 Bps  
+================================
+UDP connection 85:
+	host fq:       172.16.82.148:50859
+	host fr:       255.255.255.255:1211
+
+	first packet:  Tue Apr 24 23:05:03.574645 2012
+	last packet:   Tue Apr 24 23:05:03.574645 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   fq->fr:			      fr->fq:
+     total packets:             1           total packets:             0      
+     data bytes sent:          83           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 86:
+	host fs:       172.16.82.92:50796
+	host ft:       255.255.255.255:10019
+
+	first packet:  Tue Apr 24 23:05:03.603163 2012
+	last packet:   Tue Apr 24 23:05:03.603163 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   fs->ft:			      ft->fs:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 87:
+	host fu:       172.16.82.37:2425
+	host fv:       172.16.83.255:2425
+
+	first packet:  Tue Apr 24 23:05:03.613057 2012
+	last packet:   Tue Apr 24 23:05:03.613057 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   fu->fv:			      fv->fu:
+     total packets:             1           total packets:             0      
+     data bytes sent:         119           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 88:
+	host fw:       172.16.82.20:2425
+	host fx:       172.16.82.37:2425
+
+	first packet:  Tue Apr 24 23:05:03.617274 2012
+	last packet:   Tue Apr 24 23:05:03.617274 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   fw->fx:			      fx->fw:
+     total packets:             1           total packets:             0      
+     data bytes sent:         112           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 89:
+	host fy:       172.16.82.116:65452
+	host fz:       239.255.255.250:1900
+
+	first packet:  Tue Apr 24 23:05:03.649589 2012
+	last packet:   Tue Apr 24 23:05:03.649589 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   fy->fz:			      fz->fy:
+     total packets:             1           total packets:             0      
+     data bytes sent:         141           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 90:
+	host ga:       172.16.82.202:137
+	host gb:       172.16.83.255:137
+
+	first packet:  Tue Apr 24 23:05:03.670175 2012
+	last packet:   Tue Apr 24 23:05:05.170014 2012
+	elapsed time:  0:00:01.499839
+	total packets: 3
+	filename:      dump-24-Apr-12.dump
+   ga->gb:			      gb->ga:
+     total packets:             3           total packets:             0      
+     data bytes sent:         174           data bytes sent:           0      
+     throughput:              116 Bps       throughput:                0 Bps  
+================================
+UDP connection 91:
+	host gc:       172.16.82.251:65311
+	host gd:       255.255.255.255:10019
+
+	first packet:  Tue Apr 24 23:05:03.675666 2012
+	last packet:   Tue Apr 24 23:05:03.675666 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   gc->gd:			      gd->gc:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 92:
+	host ge:       fe80::54af:a5ad:a2f4:a799:54320
+	host gf:       ff02::000c:1900
+
+	first packet:  Tue Apr 24 23:05:03.690358 2012
+	last packet:   Tue Apr 24 23:05:03.691585 2012
+	elapsed time:  0:00:00.001227
+	total packets: 2
+	filename:      dump-24-Apr-12.dump
+   ge->gf:			      gf->ge:
+     total packets:             2           total packets:             0      
+     data bytes sent:         252           data bytes sent:           0      
+     throughput:           205379 Bps       throughput:                0 Bps  
+================================
+UDP connection 93:
+	host gg:       172.16.82.39:54323
+	host gh:       239.255.255.250:1900
+
+	first packet:  Tue Apr 24 23:05:03.690367 2012
+	last packet:   Tue Apr 24 23:05:03.691795 2012
+	elapsed time:  0:00:00.001428
+	total packets: 2
+	filename:      dump-24-Apr-12.dump
+   gg->gh:			      gh->gg:
+     total packets:             2           total packets:             0      
+     data bytes sent:         264           data bytes sent:           0      
+     throughput:           184874 Bps       throughput:                0 Bps  
+================================
+UDP connection 94:
+	host gi:       172.16.82.110:53597
+	host gj:       255.255.255.255:10019
+
+	first packet:  Tue Apr 24 23:05:03.744712 2012
+	last packet:   Tue Apr 24 23:05:03.744712 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   gi->gj:			      gj->gi:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 95:
+	host gk:       172.16.82.116:62057
+	host gl:       255.255.255.255:10007
+
+	first packet:  Tue Apr 24 23:05:03.865199 2012
+	last packet:   Tue Apr 24 23:05:03.865199 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   gk->gl:			      gl->gk:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 96:
+	host gm:       172.16.82.116:62058
+	host gn:       255.255.255.255:10019
+
+	first packet:  Tue Apr 24 23:05:03.879748 2012
+	last packet:   Tue Apr 24 23:05:03.879748 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   gm->gn:			      gn->gm:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 97:
+	host go:       172.16.82.103:64519
+	host gp:       255.255.255.255:10019
+
+	first packet:  Tue Apr 24 23:05:03.949410 2012
+	last packet:   Tue Apr 24 23:05:03.949410 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   go->gp:			      gp->go:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 98:
+	host gq:       172.16.82.103:64520
+	host gr:       255.255.255.255:10007
+
+	first packet:  Tue Apr 24 23:05:03.954467 2012
+	last packet:   Tue Apr 24 23:05:03.954467 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   gq->gr:			      gr->gq:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 99:
+	host gu:       172.16.82.92:50797
+	host gv:       255.255.255.255:10007
+
+	first packet:  Tue Apr 24 23:05:04.178984 2012
+	last packet:   Tue Apr 24 23:05:04.178984 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   gu->gv:			      gv->gu:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 100:
+	host gw:       fe80::c544:2ab9:965d:730f:546
+	host gx:       ff02::0001:0002:547
+
+	first packet:  Tue Apr 24 23:05:04.325979 2012
+	last packet:   Tue Apr 24 23:05:04.325979 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   gw->gx:			      gx->gw:
+     total packets:             1           total packets:             0      
+     data bytes sent:          92           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 101:
+	host gy:       fe80::1018:350b:18fd:00d4:546
+	host gz:       ff02::0001:0002:547
+
+	first packet:  Tue Apr 24 23:05:04.408413 2012
+	last packet:   Tue Apr 24 23:05:04.408413 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   gy->gz:			      gz->gy:
+     total packets:             1           total packets:             0      
+     data bytes sent:         103           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 102:
+	host ha:       fe80::213e:2cb0:3aa3:0389:546
+	host hb:       ff02::0001:0002:547
+
+	first packet:  Tue Apr 24 23:05:04.415449 2012
+	last packet:   Tue Apr 24 23:05:04.415449 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   ha->hb:			      hb->ha:
+     total packets:             1           total packets:             0      
+     data bytes sent:          96           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 103:
+	host hc:       172.16.82.110:53598
+	host hd:       255.255.255.255:10007
+
+	first packet:  Tue Apr 24 23:05:04.477926 2012
+	last packet:   Tue Apr 24 23:05:04.477926 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   hc->hd:			      hd->hc:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 104:
+	host he:       172.16.82.251:52457
+	host hf:       255.255.255.255:10007
+
+	first packet:  Tue Apr 24 23:05:04.479610 2012
+	last packet:   Tue Apr 24 23:05:04.479610 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   he->hf:			      hf->he:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 105:
+	host hg:       fe80::8cde:eeea:1e2b:04e3:546
+	host hh:       ff02::0001:0002:547
+
+	first packet:  Tue Apr 24 23:05:04.505851 2012
+	last packet:   Tue Apr 24 23:05:04.505851 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   hg->hh:			      hh->hg:
+     total packets:             1           total packets:             0      
+     data bytes sent:         102           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 106:
+	host hi:       172.16.82.124:17500
+	host hj:       255.255.255.255:17500
+
+	first packet:  Tue Apr 24 23:05:04.541249 2012
+	last packet:   Tue Apr 24 23:05:04.544564 2012
+	elapsed time:  0:00:00.003315
+	total packets: 3
+	filename:      dump-24-Apr-12.dump
+   hi->hj:			      hj->hi:
+     total packets:             3           total packets:             0      
+     data bytes sent:         360           data bytes sent:           0      
+     throughput:           108597 Bps       throughput:                0 Bps  
+================================
+UDP connection 107:
+	host hk:       172.16.82.124:17500
+	host hl:       172.16.83.255:17500
+
+	first packet:  Tue Apr 24 23:05:04.544737 2012
+	last packet:   Tue Apr 24 23:05:04.544737 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   hk->hl:			      hl->hk:
+     total packets:             1           total packets:             0      
+     data bytes sent:         120           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 108:
+	host hm:       172.16.82.210:68
+	host hn:       255.255.255.255:67
+
+	first packet:  Tue Apr 24 23:05:04.566265 2012
+	last packet:   Tue Apr 24 23:05:04.566265 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   hm->hn:			      hn->hm:
+     total packets:             1           total packets:             0      
+     data bytes sent:         308           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 109:
+	host ho:       172.16.83.7:62126
+	host hp:       239.255.255.250:1900
+
+	first packet:  Tue Apr 24 23:05:04.577654 2012
+	last packet:   Tue Apr 24 23:05:04.577654 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   ho->hp:			      hp->ho:
+     total packets:             1           total packets:             0      
+     data bytes sent:         141           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 110:
+	host hq:       172.16.82.92:50798
+	host hr:       255.255.255.255:10019
+
+	first packet:  Tue Apr 24 23:05:04.617318 2012
+	last packet:   Tue Apr 24 23:05:04.617318 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   hq->hr:			      hr->hq:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 111:
+	host hs:       0.0.0.0:68
+	host ht:       255.255.255.255:67
+
+	first packet:  Tue Apr 24 23:05:04.628732 2012
+	last packet:   Tue Apr 24 23:05:04.628732 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   hs->ht:			      ht->hs:
+     total packets:             1           total packets:             0      
+     data bytes sent:         308           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 112:
+	host hu:       172.16.83.254:67
+	host hv:       255.255.255.255:68
+
+	first packet:  Tue Apr 24 23:05:04.630180 2012
+	last packet:   Tue Apr 24 23:05:04.630180 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   hu->hv:			      hv->hu:
+     total packets:             1           total packets:             0      
+     data bytes sent:         309           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 113:
+	host hw:       172.16.82.251:52458
+	host hx:       255.255.255.255:10019
+
+	first packet:  Tue Apr 24 23:05:04.674748 2012
+	last packet:   Tue Apr 24 23:05:04.674748 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   hw->hx:			      hx->hw:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 114:
+	host hy:       172.16.82.202:54309
+	host hz:       239.255.255.250:1900
+
+	first packet:  Tue Apr 24 23:05:04.750168 2012
+	last packet:   Tue Apr 24 23:05:04.750168 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   hy->hz:			      hz->hy:
+     total packets:             1           total packets:             0      
+     data bytes sent:         141           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 115:
+	host ia:       172.16.82.110:53599
+	host ib:       255.255.255.255:10019
+
+	first packet:  Tue Apr 24 23:05:04.759542 2012
+	last packet:   Tue Apr 24 23:05:04.759542 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   ia->ib:			      ib->ia:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 116:
+	host ic:       172.16.82.116:51867
+	host id:       255.255.255.255:10007
+
+	first packet:  Tue Apr 24 23:05:04.871467 2012
+	last packet:   Tue Apr 24 23:05:04.871467 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   ic->id:			      id->ic:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 117:
+	host ie:       172.16.82.116:51868
+	host if:       255.255.255.255:10019
+
+	first packet:  Tue Apr 24 23:05:04.883400 2012
+	last packet:   Tue Apr 24 23:05:04.883400 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   ie->if:			      if->ie:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 118:
+	host ig:       fe80::3978:b61b:56ab:d7ed:546
+	host ih:       ff02::0001:0002:547
+
+	first packet:  Tue Apr 24 23:05:04.886843 2012
+	last packet:   Tue Apr 24 23:05:04.886843 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   ig->ih:			      ih->ig:
+     total packets:             1           total packets:             0      
+     data bytes sent:          97           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 119:
+	host ii:       172.16.82.103:64521
+	host ij:       255.255.255.255:10019
+
+	first packet:  Tue Apr 24 23:05:04.949327 2012
+	last packet:   Tue Apr 24 23:05:04.949327 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   ii->ij:			      ij->ii:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 120:
+	host ik:       172.16.82.103:64522
+	host il:       255.255.255.255:10007
+
+	first packet:  Tue Apr 24 23:05:04.954015 2012
+	last packet:   Tue Apr 24 23:05:04.954015 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   ik->il:			      il->ik:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 121:
+	host im:       fe80::d050:0581:b3eb:5c66:546
+	host in:       ff02::0001:0002:547
+
+	first packet:  Tue Apr 24 23:05:05.064799 2012
+	last packet:   Tue Apr 24 23:05:05.064799 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   im->in:			      in->im:
+     total packets:             1           total packets:             0      
+     data bytes sent:          97           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 122:
+	host io:       172.16.82.92:50799
+	host ip:       255.255.255.255:10007
+
+	first packet:  Tue Apr 24 23:05:05.196436 2012
+	last packet:   Tue Apr 24 23:05:05.196436 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   io->ip:			      ip->io:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 123:
+	host iq:       fe80::8d0d:08b6:3623:e26e:57435
+	host ir:       ff02::0001:0003:5355
+
+	first packet:  Tue Apr 24 23:05:05.286306 2012
+	last packet:   Tue Apr 24 23:05:05.386119 2012
+	elapsed time:  0:00:00.099813
+	total packets: 2
+	filename:      dump-24-Apr-12.dump
+   iq->ir:			      ir->iq:
+     total packets:             2           total packets:             0      
+     data bytes sent:          72           data bytes sent:           0      
+     throughput:              721 Bps       throughput:                0 Bps  
+================================
+UDP connection 124:
+	host is:       172.16.82.164:61385
+	host it:       224.0.0.252:5355
+
+	first packet:  Tue Apr 24 23:05:05.286370 2012
+	last packet:   Tue Apr 24 23:05:05.386141 2012
+	elapsed time:  0:00:00.099771
+	total packets: 2
+	filename:      dump-24-Apr-12.dump
+   is->it:			      it->is:
+     total packets:             2           total packets:             0      
+     data bytes sent:          72           data bytes sent:           0      
+     throughput:              722 Bps       throughput:                0 Bps  
+================================
+UDP connection 125:
+	host iu:       fe80::8d0d:08b6:3623:e26e:60569
+	host iv:       ff02::0001:0003:5355
+
+	first packet:  Tue Apr 24 23:05:05.286672 2012
+	last packet:   Tue Apr 24 23:05:05.386133 2012
+	elapsed time:  0:00:00.099461
+	total packets: 2
+	filename:      dump-24-Apr-12.dump
+   iu->iv:			      iv->iu:
+     total packets:             2           total packets:             0      
+     data bytes sent:          72           data bytes sent:           0      
+     throughput:              724 Bps       throughput:                0 Bps  
+================================
+UDP connection 126:
+	host iw:       172.16.82.164:49773
+	host ix:       224.0.0.252:5355
+
+	first packet:  Tue Apr 24 23:05:05.286696 2012
+	last packet:   Tue Apr 24 23:05:05.386137 2012
+	elapsed time:  0:00:00.099441
+	total packets: 2
+	filename:      dump-24-Apr-12.dump
+   iw->ix:			      ix->iw:
+     total packets:             2           total packets:             0      
+     data bytes sent:          72           data bytes sent:           0      
+     throughput:              724 Bps       throughput:                0 Bps  
+================================
+UDP connection 127:
+	host iy:       fe80::8d0d:08b6:3623:e26e:50416
+	host iz:       ff02::0001:0003:5355
+
+	first packet:  Tue Apr 24 23:05:05.286976 2012
+	last packet:   Tue Apr 24 23:05:05.387124 2012
+	elapsed time:  0:00:00.100148
+	total packets: 2
+	filename:      dump-24-Apr-12.dump
+   iy->iz:			      iz->iy:
+     total packets:             2           total packets:             0      
+     data bytes sent:          72           data bytes sent:           0      
+     throughput:              719 Bps       throughput:                0 Bps  
+================================
+UDP connection 128:
+	host ja:       172.16.82.164:60393
+	host jb:       224.0.0.252:5355
+
+	first packet:  Tue Apr 24 23:05:05.287017 2012
+	last packet:   Tue Apr 24 23:05:05.387131 2012
+	elapsed time:  0:00:00.100114
+	total packets: 2
+	filename:      dump-24-Apr-12.dump
+   ja->jb:			      jb->ja:
+     total packets:             2           total packets:             0      
+     data bytes sent:          72           data bytes sent:           0      
+     throughput:              719 Bps       throughput:                0 Bps  
+================================
+UDP connection 129:
+	host jc:       fe80::04af:aeb2:170a:5284:54960
+	host jd:       ff02::0001:0003:5355
+
+	first packet:  Tue Apr 24 23:05:05.372274 2012
+	last packet:   Tue Apr 24 23:05:05.472081 2012
+	elapsed time:  0:00:00.099807
+	total packets: 2
+	filename:      dump-24-Apr-12.dump
+   jc->jd:			      jd->jc:
+     total packets:             2           total packets:             0      
+     data bytes sent:          60           data bytes sent:           0      
+     throughput:              601 Bps       throughput:                0 Bps  
+================================
+UDP connection 130:
+	host je:       172.16.82.202:54354
+	host jf:       224.0.0.252:5355
+
+	first packet:  Tue Apr 24 23:05:05.372520 2012
+	last packet:   Tue Apr 24 23:05:05.472165 2012
+	elapsed time:  0:00:00.099645
+	total packets: 2
+	filename:      dump-24-Apr-12.dump
+   je->jf:			      jf->je:
+     total packets:             2           total packets:             0      
+     data bytes sent:          60           data bytes sent:           0      
+     throughput:              602 Bps       throughput:                0 Bps  
+================================
+UDP connection 131:
+	host jg:       172.16.82.110:53600
+	host jh:       255.255.255.255:10007
+
+	first packet:  Tue Apr 24 23:05:05.492380 2012
+	last packet:   Tue Apr 24 23:05:05.492380 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   jg->jh:			      jh->jg:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 132:
+	host ji:       172.16.82.251:52459
+	host jj:       255.255.255.255:10007
+
+	first packet:  Tue Apr 24 23:05:05.492501 2012
+	last packet:   Tue Apr 24 23:05:05.492501 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   ji->jj:			      jj->ji:
+     total packets:             1           total packets:             0      
+     data bytes sent:         136           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 133:
+	host jk:       fe80::04af:aeb2:170a:5284:546
+	host jl:       ff02::0001:0002:547
+
+	first packet:  Tue Apr 24 23:05:05.505038 2012
+	last packet:   Tue Apr 24 23:05:05.505038 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   jk->jl:			      jl->jk:
+     total packets:             1           total packets:             0      
+     data bytes sent:         100           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 134:
+	host jm:       172.16.82.225:57524
+	host jn:       239.255.255.250:1900
+
+	first packet:  Tue Apr 24 23:05:05.566991 2012
+	last packet:   Tue Apr 24 23:05:05.566991 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   jm->jn:			      jn->jm:
+     total packets:             1           total packets:             0      
+     data bytes sent:         141           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      
+================================
+UDP connection 135:
+	host jo:       172.16.82.255:17500
+	host jp:       255.255.255.255:17500
+
+	first packet:  Tue Apr 24 23:05:05.603492 2012
+	last packet:   Tue Apr 24 23:05:05.603492 2012
+	elapsed time:  0:00:00.000000
+	total packets: 1
+	filename:      dump-24-Apr-12.dump
+   jo->jp:			      jp->jo:
+     total packets:             1           total packets:             0      
+     data bytes sent:         120           data bytes sent:           0      
+     throughput:               NA           throughput:               NA      

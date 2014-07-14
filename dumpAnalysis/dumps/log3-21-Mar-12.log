@@ -1,0 +1,394 @@
+1 arg remaining, starting with 'dump-21-Mar-12.dump'
+Ostermann's tcptrace -- version 6.6.7 -- Thu Nov  4, 2004
+
+100 packets seen, 98 TCP packets traced, 2 UDP packets traced
+elapsed wallclock time: 0:00:00.000414, 241545 pkts/sec analyzed
+trace file elapsed time: 0:00:37.634215
+TCP connection info:
+5 TCP connections traced:
+TCP connection 1:
+	host a:        127.0.0.1:35094
+	host b:        127.0.0.1:25
+	complete conn: yes
+	first packet:  Wed Mar 21 21:52:29.383443 2012
+	last packet:   Wed Mar 21 21:52:29.580704 2012
+	elapsed time:  0:00:00.197261
+	total packets: 17
+	filename:      dump-21-Mar-12.dump
+   a->b:			      b->a:
+     total packets:             9           total packets:             8      
+     ack pkts sent:             8           ack pkts sent:             8      
+     pure acks sent:            3           pure acks sent:            1      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:        57           unique bytes sent:       258      
+     actual data pkts:          4           actual data pkts:          5      
+     actual data bytes:        57           actual data bytes:       258      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          4           pushed data pkts:          5      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/Y           req 1323 ws/ts:          Y/Y      
+     adv wind scale:            4           adv wind scale:            4      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:         16396 bytes     mss requested:         16396 bytes
+     max segm size:            21 bytes     max segm size:           142 bytes
+     min segm size:             6 bytes     min segm size:            14 bytes
+     avg segm size:            14 bytes     avg segm size:            51 bytes
+     max win adv:           33872 bytes     max win adv:           32768 bytes
+     min win adv:           32800 bytes     min win adv:           32768 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           33470 bytes     avg win adv:           32768 bytes
+     initial window:           18 bytes     initial window:           48 bytes
+     initial window:            1 pkts      initial window:            1 pkts 
+     ttl stream length:        57 bytes     ttl stream length:       258 bytes
+     missed data:               0 bytes     missed data:               0 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.001 secs      data xmit time:        0.001 secs 
+     idletime max:          193.7 ms        idletime max:          193.6 ms   
+     throughput:              289 Bps       throughput:             1308 Bps  
+
+     RTT samples:               6           RTT samples:               7      
+     RTT min:                 0.0 ms        RTT min:                 0.0 ms   
+     RTT max:                 0.3 ms        RTT max:                 2.0 ms   
+     RTT avg:                 0.1 ms        RTT avg:                 0.4 ms   
+     RTT stdev:               0.1 ms        RTT stdev:               0.7 ms   
+
+     RTT from 3WHS:           0.0 ms        RTT from 3WHS:           0.0 ms   
+
+     RTT full_sz smpls:         1           RTT full_sz smpls:         1      
+     RTT full_sz min:         0.1 ms        RTT full_sz min:         0.6 ms   
+     RTT full_sz max:         0.1 ms        RTT full_sz max:         0.6 ms   
+     RTT full_sz avg:         0.1 ms        RTT full_sz avg:         0.6 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            0      
+     segs cum acked:            0           segs cum acked:            0      
+     duplicate acks:            0           duplicate acks:            0      
+     triple dupacks:            0           triple dupacks:            0      
+     max # retrans:             0           max # retrans:             0      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:           0.0 ms   
+     avg retr time:           0.0 ms        avg retr time:           0.0 ms   
+     sdv retr time:           0.0 ms        sdv retr time:           0.0 ms   
+================================
+TCP connection 2:
+	host e:        127.0.0.1:36268
+	host f:        127.0.0.1:8000
+	complete conn: yes
+	first packet:  Wed Mar 21 21:52:58.801394 2012
+	last packet:   Wed Mar 21 21:52:59.210516 2012
+	elapsed time:  0:00:00.409122
+	total packets: 37
+	filename:      dump-21-Mar-12.dump
+   e->f:			      f->e:
+     total packets:            19           total packets:            18      
+     ack pkts sent:            18           ack pkts sent:            18      
+     pure acks sent:           15           pure acks sent:            2      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:       689           unique bytes sent:       724      
+     actual data pkts:          2           actual data pkts:         14      
+     actual data bytes:       689           actual data bytes:       724      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          2           pushed data pkts:         14      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/Y           req 1323 ws/ts:          Y/Y      
+     adv wind scale:            4           adv wind scale:            4      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:         16396 bytes     mss requested:         16396 bytes
+     max segm size:           369 bytes     max segm size:           224 bytes
+     min segm size:           320 bytes     min segm size:             2 bytes
+     avg segm size:           344 bytes     avg segm size:            51 bytes
+     max win adv:           34944 bytes     max win adv:           34912 bytes
+     min win adv:           32800 bytes     min win adv:           33840 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           33514 bytes     avg win adv:           34407 bytes
+     initial window:          369 bytes     initial window:           17 bytes
+     initial window:            1 pkts      initial window:            1 pkts 
+     ttl stream length:       689 bytes     ttl stream length:       724 bytes
+     missed data:               0 bytes     missed data:               0 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.327 secs      data xmit time:        0.327 secs 
+     idletime max:          326.4 ms        idletime max:          327.0 ms   
+     throughput:             1684 Bps       throughput:             1770 Bps  
+
+     RTT samples:               4           RTT samples:              16      
+     RTT min:                 0.0 ms        RTT min:                 0.0 ms   
+     RTT max:                 0.6 ms        RTT max:                 1.7 ms   
+     RTT avg:                 0.2 ms        RTT avg:                 0.1 ms   
+     RTT stdev:               0.3 ms        RTT stdev:               0.4 ms   
+
+     RTT from 3WHS:           0.0 ms        RTT from 3WHS:           0.0 ms   
+
+     RTT full_sz smpls:         1           RTT full_sz smpls:         1      
+     RTT full_sz min:         0.1 ms        RTT full_sz min:         0.0 ms   
+     RTT full_sz max:         0.1 ms        RTT full_sz max:         0.0 ms   
+     RTT full_sz avg:         0.1 ms        RTT full_sz avg:         0.0 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            0      
+     segs cum acked:            0           segs cum acked:            0      
+     duplicate acks:            1           duplicate acks:            0      
+     triple dupacks:            0           triple dupacks:            0      
+     max # retrans:             0           max # retrans:             0      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:           0.0 ms   
+     avg retr time:           0.0 ms        avg retr time:           0.0 ms   
+     sdv retr time:           0.0 ms        sdv retr time:           0.0 ms   
+================================
+TCP connection 3:
+	host g:        127.0.0.1:36269
+	host h:        127.0.0.1:8000
+	complete conn: yes
+	first packet:  Wed Mar 21 21:52:58.801743 2012
+	last packet:   Wed Mar 21 21:53:06.379333 2012
+	elapsed time:  0:00:07.577590
+	total packets: 39
+	filename:      dump-21-Mar-12.dump
+   g->h:			      h->g:
+     total packets:            20           total packets:            19      
+     ack pkts sent:            19           ack pkts sent:            19      
+     pure acks sent:           16           pure acks sent:            2      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:       735           unique bytes sent:      1086      
+     actual data pkts:          2           actual data pkts:         15      
+     actual data bytes:       735           actual data bytes:      1086      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          2           pushed data pkts:         15      
+     SYN/FIN pkts sent:       1/1           SYN/FIN pkts sent:       1/1      
+     req 1323 ws/ts:          Y/Y           req 1323 ws/ts:          Y/Y      
+     adv wind scale:            4           adv wind scale:            4      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:         16396 bytes     mss requested:         16396 bytes
+     max segm size:           415 bytes     max segm size:           554 bytes
+     min segm size:           320 bytes     min segm size:             2 bytes
+     avg segm size:           367 bytes     avg segm size:            72 bytes
+     max win adv:           35008 bytes     max win adv:           34912 bytes
+     min win adv:           32800 bytes     min win adv:           33840 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           33497 bytes     avg win adv:           34376 bytes
+     initial window:          415 bytes     initial window:           17 bytes
+     initial window:            1 pkts      initial window:            1 pkts 
+     ttl stream length:       735 bytes     ttl stream length:      1086 bytes
+     missed data:               0 bytes     missed data:               0 bytes
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.169 secs      data xmit time:        0.169 secs 
+     idletime max:         7407.2 ms        idletime max:         7407.2 ms   
+     throughput:               97 Bps       throughput:              143 Bps  
+
+     RTT samples:               4           RTT samples:              17      
+     RTT min:                 0.0 ms        RTT min:                 0.0 ms   
+     RTT max:                 0.5 ms        RTT max:                 1.1 ms   
+     RTT avg:                 0.1 ms        RTT avg:                 0.1 ms   
+     RTT stdev:               0.2 ms        RTT stdev:               0.3 ms   
+
+     RTT from 3WHS:           0.0 ms        RTT from 3WHS:           0.0 ms   
+
+     RTT full_sz smpls:         1           RTT full_sz smpls:         1      
+     RTT full_sz min:         0.1 ms        RTT full_sz min:         0.0 ms   
+     RTT full_sz max:         0.1 ms        RTT full_sz max:         0.0 ms   
+     RTT full_sz avg:         0.1 ms        RTT full_sz avg:         0.0 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            0      
+     segs cum acked:            0           segs cum acked:            0      
+     duplicate acks:            1           duplicate acks:            0      
+     triple dupacks:            0           triple dupacks:            0      
+     max # retrans:             0           max # retrans:             0      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:           0.0 ms   
+     avg retr time:           0.0 ms        avg retr time:           0.0 ms   
+     sdv retr time:           0.0 ms        sdv retr time:           0.0 ms   
+================================
+TCP connection 4:
+	host i:        127.0.0.1:36271
+	host j:        127.0.0.1:8000
+	complete conn: no	(SYNs: 2)  (FINs: 0)
+	first packet:  Wed Mar 21 21:53:07.017397 2012
+	last packet:   Wed Mar 21 21:53:07.017428 2012
+	elapsed time:  0:00:00.000031
+	total packets: 3
+	filename:      dump-21-Mar-12.dump
+   i->j:			      j->i:
+     total packets:             2           total packets:             1      
+     ack pkts sent:             1           ack pkts sent:             1      
+     pure acks sent:            1           pure acks sent:            0      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:         0           unique bytes sent:         0      
+     actual data pkts:          0           actual data pkts:          0      
+     actual data bytes:         0           actual data bytes:         0      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          0           pushed data pkts:          0      
+     SYN/FIN pkts sent:       1/0           SYN/FIN pkts sent:       1/0      
+     req 1323 ws/ts:          Y/Y           req 1323 ws/ts:          Y/Y      
+     adv wind scale:            4           adv wind scale:            4      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:         16396 bytes     mss requested:         16396 bytes
+     max segm size:             0 bytes     max segm size:             0 bytes
+     min segm size:             0 bytes     min segm size:             0 bytes
+     avg segm size:             0 bytes     avg segm size:             0 bytes
+     max win adv:           32800 bytes     max win adv:           32768 bytes
+     min win adv:           32800 bytes     min win adv:           32768 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           16400 bytes     avg win adv:           32768 bytes
+     initial window:            0 bytes     initial window:            0 bytes
+     initial window:            0 pkts      initial window:            0 pkts 
+     ttl stream length:        NA           ttl stream length:        NA      
+     missed data:              NA           missed data:              NA      
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        0.000 secs 
+     idletime max:            0.2 ms        idletime max:            0.2 ms   
+     throughput:                0 Bps       throughput:                0 Bps  
+
+     RTT samples:               1           RTT samples:               1      
+     RTT min:                 0.0 ms        RTT min:                 0.0 ms   
+     RTT max:                 0.0 ms        RTT max:                 0.0 ms   
+     RTT avg:                 0.0 ms        RTT avg:                 0.0 ms   
+     RTT stdev:               0.0 ms        RTT stdev:               0.0 ms   
+
+     RTT from 3WHS:           0.0 ms        RTT from 3WHS:           0.0 ms   
+
+     RTT full_sz smpls:         1           RTT full_sz smpls:         1      
+     RTT full_sz min:         0.0 ms        RTT full_sz min:         0.0 ms   
+     RTT full_sz max:         0.0 ms        RTT full_sz max:         0.0 ms   
+     RTT full_sz avg:         0.0 ms        RTT full_sz avg:         0.0 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            0      
+     segs cum acked:            0           segs cum acked:            0      
+     duplicate acks:            0           duplicate acks:            0      
+     triple dupacks:            0           triple dupacks:            0      
+     max # retrans:             0           max # retrans:             0      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:           0.0 ms   
+     avg retr time:           0.0 ms        avg retr time:           0.0 ms   
+     sdv retr time:           0.0 ms        sdv retr time:           0.0 ms   
+================================
+TCP connection 5:
+	host k:        127.0.0.1:36272
+	host l:        127.0.0.1:8000
+	complete conn: no	(SYNs: 2)  (FINs: 0)
+	first packet:  Wed Mar 21 21:53:07.017647 2012
+	last packet:   Wed Mar 21 21:53:07.017658 2012
+	elapsed time:  0:00:00.000011
+	total packets: 2
+	filename:      dump-21-Mar-12.dump
+   k->l:			      l->k:
+     total packets:             1           total packets:             1      
+     ack pkts sent:             0           ack pkts sent:             1      
+     pure acks sent:            0           pure acks sent:            0      
+     sack pkts sent:            0           sack pkts sent:            0      
+     dsack pkts sent:           0           dsack pkts sent:           0      
+     max sack blks/ack:         0           max sack blks/ack:         0      
+     unique bytes sent:         0           unique bytes sent:         0      
+     actual data pkts:          0           actual data pkts:          0      
+     actual data bytes:         0           actual data bytes:         0      
+     rexmt data pkts:           0           rexmt data pkts:           0      
+     rexmt data bytes:          0           rexmt data bytes:          0      
+     zwnd probe pkts:           0           zwnd probe pkts:           0      
+     zwnd probe bytes:          0           zwnd probe bytes:          0      
+     outoforder pkts:           0           outoforder pkts:           0      
+     pushed data pkts:          0           pushed data pkts:          0      
+     SYN/FIN pkts sent:       1/0           SYN/FIN pkts sent:       1/0      
+     req 1323 ws/ts:          Y/Y           req 1323 ws/ts:          Y/Y      
+     adv wind scale:            4           adv wind scale:            4      
+     req sack:                  Y           req sack:                  Y      
+     sacks sent:                0           sacks sent:                0      
+     urgent data pkts:          0 pkts      urgent data pkts:          0 pkts 
+     urgent data bytes:         0 bytes     urgent data bytes:         0 bytes
+     mss requested:         16396 bytes     mss requested:         16396 bytes
+     max segm size:             0 bytes     max segm size:             0 bytes
+     min segm size:             0 bytes     min segm size:             0 bytes
+     avg segm size:             0 bytes     avg segm size:             0 bytes
+     max win adv:           32792 bytes     max win adv:           32768 bytes
+     min win adv:           32792 bytes     min win adv:           32768 bytes
+     zero win adv:              0 times     zero win adv:              0 times
+     avg win adv:           32792 bytes     avg win adv:           32768 bytes
+     initial window:            0 bytes     initial window:            0 bytes
+     initial window:            0 pkts      initial window:            0 pkts 
+     ttl stream length:        NA           ttl stream length:        NA      
+     missed data:              NA           missed data:              NA      
+     truncated data:            0 bytes     truncated data:            0 bytes
+     truncated packets:         0 pkts      truncated packets:         0 pkts 
+     data xmit time:        0.000 secs      data xmit time:        0.000 secs 
+     idletime max:            0.0 ms        idletime max:            0.0 ms   
+     throughput:                0 Bps       throughput:                0 Bps  
+
+     RTT samples:               1           RTT samples:               0      
+     RTT min:                 0.0 ms        RTT min:                 0.0 ms   
+     RTT max:                 0.0 ms        RTT max:                 0.0 ms   
+     RTT avg:                 0.0 ms        RTT avg:                 0.0 ms   
+     RTT stdev:               0.0 ms        RTT stdev:               0.0 ms   
+
+     RTT from 3WHS:           0.0 ms        RTT from 3WHS:           0.0 ms   
+
+     RTT full_sz smpls:         1           RTT full_sz smpls:         0      
+     RTT full_sz min:         0.0 ms        RTT full_sz min:         0.0 ms   
+     RTT full_sz max:         0.0 ms        RTT full_sz max:         0.0 ms   
+     RTT full_sz avg:         0.0 ms        RTT full_sz avg:         0.0 ms   
+     RTT full_sz stdev:       0.0 ms        RTT full_sz stdev:       0.0 ms   
+
+     post-loss acks:            0           post-loss acks:            0      
+     segs cum acked:            0           segs cum acked:            0      
+     duplicate acks:            0           duplicate acks:            0      
+     triple dupacks:            0           triple dupacks:            0      
+     max # retrans:             0           max # retrans:             0      
+     min retr time:           0.0 ms        min retr time:           0.0 ms   
+     max retr time:           0.0 ms        max retr time:           0.0 ms   
+     avg retr time:           0.0 ms        avg retr time:           0.0 ms   
+     sdv retr time:           0.0 ms        sdv retr time:           0.0 ms   
+
+============================================================
+UDP connection info:
+1 UDP connection traced:
+UDP connection 1:
+	host c:        127.0.0.1:38701
+	host d:        127.0.0.1:50007
+
+	first packet:  Wed Mar 21 21:52:37.215435 2012
+	last packet:   Wed Mar 21 21:52:44.480130 2012
+	elapsed time:  0:00:07.264695
+	total packets: 2
+	filename:      dump-21-Mar-12.dump
+   c->d:			      d->c:
+     total packets:             2           total packets:             0      
+     data bytes sent:          28           data bytes sent:           0      
+     throughput:                4 Bps       throughput:                0 Bps  
